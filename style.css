@@ -60,7 +60,7 @@ a {
 
 .placeholder1 {
     display: flex;
-    background-color: rgb(128, 131, 146);
+    background-color: rgb(115, 115, 122);
     flex: 1;
     justify-content: center;
     align-items: center;
@@ -149,6 +149,7 @@ a {
 
 .quote {
     font-style: italic;
+    font-weight: 100;
     font-size: 36px;
     color: #1F2937;
     margin-bottom: 0;
@@ -159,4 +160,52 @@ a {
     color: #1F2937;
     align-self: flex-end;
     font-size: 24px;
+}
+
+/* Section 4 */
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    padding: 100px 280px;
+    color: #F9FAF8;
+    
+}
+
+.action {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 4em 8em;
+}
+
+.action-text {
+    flex: 1;
+}
+
+.call1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.call2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.button2 {
+    background-color: #3882F6;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 8px 30px;
+    border-radius: 8px;
+    height: 40px;
+    align-self: center;
 }
