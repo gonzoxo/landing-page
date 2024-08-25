@@ -95,4 +95,43 @@ a {
 
 .section2 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 325px;
+    padding-right: 325px;
+}
+
+.section2 h1 {
+    font-size: 36px;
+    weight: 800;
+    color: #1F2937;
+    padding: 16px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding-bottom: 6em;
+}
+
+.element {
+    width: 150px;
+    text-align: center;
+}
+
+.element .text {
+    font-size: 16px;
+    color: rgb(105, 104, 104);
+
+}
+
+.square {
+    border-width: 3px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
 }
