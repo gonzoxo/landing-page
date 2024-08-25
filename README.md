@@ -1,1 +1,1 @@
-# project-web-clone
+This is the final assignment for the CSS and HTML parts of The Odin Project. From an image that depicted the final result, I had to create from scratch the HTML and CSS files to match the desired output.
